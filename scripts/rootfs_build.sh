@@ -37,7 +37,7 @@ if [ -d $OUTPUT/${DISTRO}_rootfs ]; then
 	echo -e "\e[1;31m ${DISTRO}'s rootfs has exist! Do you want use it?(yes/no) \e[0m"
 	read OP_ROOTFS
 	if [ $OP_ROOTFS = "y" -o $OP_ROOTFS = "yes" ]; then
-		cp -rf $OUTPUT/${DISTRO}_rootfs $OUTPUT/tmp
+		cp -raf $OUTPUT/${DISTRO}_rootfs $OUTPUT/tmp
 		if [ -d $DEST ]; then
 			rm -rf $DEST
 		fi

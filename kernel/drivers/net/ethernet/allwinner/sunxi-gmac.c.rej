@@ -1,22 +1,18 @@
---- kernel/drivers/net/ethernet/allwinner/sunxi-gmac.c
-+++ kernel/drivers/net/ethernet/allwinner/sunxi-gmac.c
-@@ -446,19 +446,6 @@
- 			priv->link = phydev->link;
+--- sunxi-gmac.c
++++ sunxi-gmac.c
+@@ -935,12 +935,12 @@
+ 			ndev->dev_addr[i] = simple_strtoul(p, &p, 16);
+ 
+ 		if (!is_valid_ether_addr(ndev->dev_addr)) {
+-			geth_chip_hwaddr(ndev->dev_addr);
++			random_ether_addr(ndev->dev_addr);
++			printk(KERN_WARNING "%s: Use random mac address\n", ndev->name);
  		}
  
--        /* Fix the A version chip mode, it not work at 1000M mode */
--        if (priv->speed == SPEED_1000
--                && phydev->link == 1){
--            priv->speed = 0;
--            priv->link = 0;
--            priv->duplex = -1;
--            phydev->speed = SPEED_100;
--            phydev->autoneg = AUTONEG_DISABLE;
--            phydev->advertising &= ~ADVERTISED_Autoneg;
--            phydev->state = PHY_UP;
--            new_state = 0;
--        }
--
- 		if (new_state)
- 			sunxi_set_link_mode(priv->base, priv->duplex, priv->speed);
- 
+ 		if (!is_valid_ether_addr(ndev->dev_addr)) {
+-			random_ether_addr(ndev->dev_addr);
+-			printk(KERN_WARNING "%s: Use random mac address\n", ndev->name);
++			geth_chip_hwaddr(ndev->dev_addr);
+ 		}
+ 	}
+ }

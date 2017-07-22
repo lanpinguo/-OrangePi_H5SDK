@@ -20,8 +20,8 @@ BUILD="$ROOT/external"
 OUTPUT="$ROOT/output"
 IMAGE="$OUTPUT/${PLATFORM}.img"
 ROOTFS="$OUTPUT/rootfs"
-disk_size="1200"
-
+#disk_size="1200"
+disk_size="8192"
 if [ -z "$disk_size" ]; then
 	disk_size=100 #MiB
 fi
@@ -61,7 +61,7 @@ cp -rfa $OUTPUT/uImage $OUTPUT/orangepi
 cp -rfa $OUTPUT/OrangePiH5.dtb $OUTPUT/orangepi/OrangePiH5.dtb
 
 # Add boot support if there
-if [ -e "$OUTPUT/orangepi/uImage" -a -e "$OUTPUT/orangepi/OrangePiH5orangepi.dtb" ]; then
+if [ -e "$OUTPUT/orangepi/uImage" -a -e "$OUTPUT/orangepi/OrangePiH5.dtb" ]; then
 	mcopy -sm -i ${IMAGE}1 ${OUTPUT}/orangepi ::
 	mcopy -m -i ${IMAGE}1 ${OUTPUT}/initrd.img :: || true
 	mcopy -m -i ${IMAGE}1 ${OUTPUT}/uEnv.txt :: || true

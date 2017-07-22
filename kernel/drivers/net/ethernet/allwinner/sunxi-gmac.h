@@ -32,15 +32,31 @@
  * the system register for geth.
  *
  *****************************************************************************/
+#if 1
 #if defined(CONFIG_ARCH_SUN8I)
 #define GPIO_BASE		0x01C20800
 #elif defined(CONFIG_ARCH_SUN9I)
 #define GPIO_BASE		0x06000800
 #endif
+
+#define GPIO_BASE		0x01C20800
+
 #define PA_CFG0			(0x00)
 #define PA_CFG1			(0x04)
 #define PA_CFG2			(0x08)
 #define PA_CFG3			(0x0C)
+#define PD_CFG0			(0x6C)
+#define PD_CFG1			(0x70)
+#define PD_CFG2			(0x74)
+#define PD_CFG3			(0x78)
+#else
+#define GPIO_BASE		0x01C20800
+#define PD_CFG0			(0x6C)
+#define PD_CFG1			(0x70)
+#define PD_CFG2			(0x74)
+#define PD_CFG3			(0x78)
+
+#endif
 
 /* Clk control */
 #if defined(CONFIG_ARCH_SUN8I) \
@@ -92,7 +108,7 @@
 #define GETH_FRAME_FILTER_SAIF	0x00000100	/* Inverse Filtering */
 #define GETH_FRAME_FILTER_SAF	0x00000200	/* Source Address Filter */
 #define GETH_FRAME_FILTER_HPF	0x00000400	/* Hash or perfect Filter */
-#define GETH_FRAME_FILTER_RA	0x80000000	/* Receive all mode */
+#define GETH_FRAME_FILTER_RA	0x80000001	/* Receive all mode */
 
 /* Default tx descriptor */
 #define TX_SINGLE_DESC0		0x80000000

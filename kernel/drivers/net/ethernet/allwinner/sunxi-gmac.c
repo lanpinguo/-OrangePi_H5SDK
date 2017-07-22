@@ -55,9 +55,15 @@
 #define HASH_TABLE_SIZE	64
 #define MAX_BUF_SZ	(SZ_2K - 1)
 
+#if 1
 #undef PKT_DEBUG
 #undef DESC_PRINT
-
+#else
+#define PKT_DEBUG
+#define FRAME_FILTER_DEBUG
+//#define DESC_PRINT
+//#define DEBUG
+#endif
 #define circ_cnt(head, tail, size) (((head) > (tail)) ? \
 					((head) - (tail)) : \
 					((head) - (tail)) & ((size)-1))
@@ -179,6 +185,10 @@ struct geth_power power_tb[5] = {};
 #endif
 static u64 geth_dma_mask = DMA_BIT_MASK(32);
 
+#if 0
+static  void __iomem *io_base;
+static  void __iomem *clk_base;
+#endif
 
 void sunxi_udelay(int n)
 {
@@ -923,11 +933,11 @@ static void geth_check_addr(struct net_device *ndev, unsigned char *mac)
 
 		if (!is_valid_ether_addr(ndev->dev_addr)) {
 			geth_chip_hwaddr(ndev->dev_addr);
-			printk(KERN_WARNING "%s: Use random mac address\n", ndev->name);
 		}
 
 		if (!is_valid_ether_addr(ndev->dev_addr)) {
-			random_ether_addr(ndev->dev_addr);
+			random_ether_addr(ndev->dev_addr);			
+			printk(KERN_WARNING "%s: Use random mac address\n", ndev->name);
 		}
 	}
 }
@@ -1121,6 +1131,12 @@ static int geth_open(struct net_device *ndev)
 	/* Enable the Rx/Tx */
 	sunxi_mac_enable(priv->base);
 
+	/* Enable interrupt*/
+	sunxi_int_enable(priv->base);
+
+	/* For debug*/
+	/*sunxi_mac_loopback(priv->base, 1);*/
+
 	return 0;
 
 desc_err:
@@ -1143,6 +1159,10 @@ static int geth_stop(struct net_device *ndev)
 	napi_disable(&priv->napi);
 
 	netif_carrier_off(ndev);
+
+	/* Disable interrupt*/
+	sunxi_int_enable(priv->base);
+
 
 	/* Release PHY resources */
 	geth_phy_release(ndev);
@@ -1337,6 +1357,10 @@ static int geth_rx(struct geth_priv *priv, int limit)
 		entry = priv->rx_dirty;
 		desc = priv->dma_rx + entry;
 
+		/*printk(KERN_ERR"desc: desc0=0x%x\n",desc->desc0.all);
+		printk(KERN_ERR"desc: desc1=0x%x\n",desc->desc1.all);
+		printk(KERN_ERR"desc: desc2=0x%x\n",desc->desc2);
+		printk(KERN_ERR"desc: desc3=0x%x\n",desc->desc3);*/
 		if (desc_get_own(desc))
 			break;
 
@@ -1404,8 +1428,46 @@ static int geth_poll(struct napi_struct *napi, int budget)
 {
 	struct geth_priv *priv = container_of(napi, struct geth_priv, napi);
 	int work_done = 0;
+  /*int clk_reg;
+	printk(KERN_ERR"geth_poll: budget=0x%x\n",budget);*/
 
 	geth_tx_complete(priv);
+
+  #if 0
+	if(likely(io_base))
+	{
+    printk(KERN_ERR "PIO: PD_CFG0  = 0x%x\n", readl(io_base + PD_CFG0));
+    printk(KERN_ERR "PIO: PD_CFG1  = 0x%x\n", readl(io_base + PD_CFG1));
+    printk(KERN_ERR "PIO: PD_CFG2  = 0x%x\n", readl(io_base + PD_CFG2));
+    printk(KERN_ERR "PIO: PD_data  = 0x%x\n", readl(io_base + 0x7c));
+    printk(KERN_ERR "PIO: PD_mdr0  = 0x%x\n", readl(io_base + 0x80));
+    printk(KERN_ERR "PIO: PD_mdr1  = 0x%x\n", readl(io_base + 0x84));
+    printk(KERN_ERR "PIO: PD_pull0 = 0x%x\n", readl(io_base + 0x88));
+    printk(KERN_ERR "PIO: PD_pull1 = 0x%x\n", readl(io_base + 0x8c));
+
+    if(readl(io_base + 0x80) != 0xdf7fdfff)
+    {
+      writel(0xdf7fdfff, io_base + 0x80);
+    }
+
+	}
+
+  /*printk(KERN_ERR "GMAC: rgmii status   = 0x%x\n", readl(priv->base + 0xd0));*/
+
+  if(likely(clk_base))
+  {
+    clk_reg = readl(clk_base + 0x30);
+	  /*printk(KERN_ERR "clk: emac-ephy-clk = 0x%x\n", clk_reg);*/
+    #if 1
+    if(clk_reg != 0x50006)
+    {
+      writel(0x50006, clk_base + 0x30);
+    }
+    #endif
+
+  }
+  #endif
+
 	work_done = geth_rx(priv, budget);
 
 	if (work_done < budget) {
@@ -1768,6 +1830,7 @@ static int geth_script_parse(struct platform_device *pdev)
 	return 0;
 }
 
+
 static int geth_sys_request(struct platform_device *pdev)
 {
 	struct net_device *ndev = platform_get_drvdata(pdev);
@@ -1849,6 +1912,31 @@ static int geth_sys_request(struct platform_device *pdev)
 		if (ret < 0)
 			goto pin_err;
 	}
+
+#if 0
+  /* Set up our I/O range. */
+  io_base = ioremap(GPIO_BASE, 0x200);
+  if(likely(io_base))
+  {
+	  printk(KERN_ERR "PIO: PD_CFG0 = 0x%x\n", readl(io_base + PD_CFG0));
+	  printk(KERN_ERR "PIO: PD_CFG1 = 0x%x\n", readl(io_base + PD_CFG1));
+	  printk(KERN_ERR "PIO: PD_CFG2 = 0x%x\n", readl(io_base + PD_CFG2));
+
+
+    writel(0xdf7fdfff, io_base + 0x80);
+    
+  }
+
+
+
+    /* Set up our clock range. */
+  clk_base = ioremap(0x01C00000, 0x200);
+  if(likely(clk_base))
+  {
+    writel(0x50006, clk_base + 0x30);
+  }
+#endif
+  
 #endif
 	return 0;
 

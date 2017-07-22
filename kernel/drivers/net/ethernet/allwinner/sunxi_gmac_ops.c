@@ -184,7 +184,9 @@ int sunxi_mdio_read(void *iobase, int phyaddr, int phyreg)
 	writel(value, iobase + GETH_MDIO_ADDR);
 	while (((readl(iobase + GETH_MDIO_ADDR)) & MII_BUSY) == 1);
 
-	return (int)readl(iobase + GETH_MDIO_DATA);
+	value = (unsigned int)readl(iobase + GETH_MDIO_DATA);
+	/*printk(KERN_ERR"phy(0x%x)-read: reg 0x%x =0x%x\n",phyaddr,phyreg,value);*/
+	return (int)value;
 }
 
 int sunxi_mdio_write(void *iobase, int phyaddr, int phyreg, unsigned short data)
@@ -196,6 +198,12 @@ int sunxi_mdio_write(void *iobase, int phyaddr, int phyreg, unsigned short data)
 			((phyreg << 4) & (0x000007F0))) |
 			MII_WRITE | MII_BUSY;
 
+  #if 0
+	if(phyreg == 0)
+	{
+		data |= (1<<14);
+	}
+  #endif
 
 	/* Wait until any existing MII operation is complete */
 	while (((readl(iobase + GETH_MDIO_ADDR)) & MII_BUSY) == 1);
@@ -206,6 +214,8 @@ int sunxi_mdio_write(void *iobase, int phyaddr, int phyreg, unsigned short data)
 
 	/* Wait until any existing MII operation is complete */
 	while (((readl(iobase + GETH_MDIO_ADDR)) & MII_BUSY) == 1);
+
+	/*printk(KERN_ERR"phy(0x%x)-write: reg 0x%x =0x%x\n",phyaddr,phyreg,data);*/
 
 	return 0;
 }
@@ -291,6 +301,8 @@ int sunxi_int_status(void *iobase, struct geth_extra_stats *x)
 		readl(iobase + GETH_RGMII_STA);
 
 	intr_status = readl(iobase + GETH_INT_STA);
+
+	/*printk(KERN_ERR"int: intr_status=0x%x\n",intr_status);*/
 
 	/* ABNORMAL interrupts */
 	if (intr_status & TX_UNF_INT) {

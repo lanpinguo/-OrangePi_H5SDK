@@ -233,13 +233,13 @@ if [ $OPTION = "0" -o $OPTION = "1" ]; then
 			OP_ROOTFS=1
 		fi
 		if [ $OP_ROOTFS = "0" ]; then
-			sudo cp -rf $ROOT/output/${DISTRO}_rootfs $ROOT/output/tmp
+			sudo cp -raf $ROOT/output/${DISTRO}_rootfs $ROOT/output/tmp
 			if [ -d $ROOT/output/rootfs ]; then
 				sudo rm -rf $ROOT/output/rootfs
 			fi
 			sudo mv $ROOT/output/tmp $ROOT/output/rootfs
-			whiptail --title "OrangePi Build System" --msgbox "Rootfs has build" \
-				10 40 0	--ok-button Continue
+#			whiptail --title "OrangePi Build System" --msgbox "Rootfs has build" \
+#				10 40 0	--ok-button Continue
 		else
 			sudo ./00_rootfs_build.sh $DISTRO
 			sudo ./01_rootfs_build.sh $DISTRO
@@ -256,7 +256,7 @@ if [ $OPTION = "0" -o $OPTION = "1" ]; then
 	if [ $TMP = "0" ]; then 
 		sudo ./build_image.sh $PLATFORM
 		whiptail --title "OrangePi Build System" --msgbox "Succeed to build Image" \
-				10 40 0	--ok-button Continue
+				10 40 0	--ok-button OK
 	fi
 	exit 0
 elif [ $OPTION = "2" ]; then
@@ -302,11 +302,11 @@ elif [ $OPTION = '7' ]; then
 	exit 0
 elif [ $OPTION = '8' ]; then
 	sudo echo ""
-	clear 
-	ROOTFS_check
+	#clear 
+	#ROOTFS_check
 	clear
 	cd $SCRIPTS
-	sudo ./modules_update.sh $ROOTFS_PATH
+	sudo ./modules_update.sh $ROOT/output/xenial_rootfs
 	exit 0
 elif [ $OPTION = '9' ]; then
 	clear
