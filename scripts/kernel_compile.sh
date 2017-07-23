@@ -53,7 +53,7 @@ fi
 
 if [ ! -f $LINUX/.config ]; then
 	make -C $LINUX ARCH=arm64 CROSS_COMPILE=$TOOLS ${PLATFORM}_linux_defconfig
-	echo -e "\e[1;31m Using ${PLATFROM}_linux_defconfig \e[0m"
+	echo -e "\e[1;31m Using ${PLATFORM}_linux_defconfig \e[0m"
 fi
 
 if [ $BUILD_KERNEL = "1" ]; then

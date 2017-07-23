@@ -13,6 +13,7 @@
 
 #ifdef CONFIG_ARCH_SUNXI
 #include <linux/gpio.h>
+#include <linux/wlan_plat.h>
 
 extern void sunxi_mmc_rescan_card(unsigned ids);
 extern void sunxi_wlan_set_power(int on);
@@ -185,7 +186,7 @@ static struct cntry_locales_custom brcm_wlan_translate_custom_table[] = {
 	{"US", "US", 0},
 };
 
-static void *bcm_wlan_get_country_code(char *ccode)
+static void *bcm_wlan_get_country_code(char *ccode,u32 flags)
 {
 	struct cntry_locales_custom *locales;
 	int size;

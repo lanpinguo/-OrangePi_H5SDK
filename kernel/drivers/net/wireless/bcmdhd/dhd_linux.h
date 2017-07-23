@@ -32,6 +32,7 @@
 
 #define DHD_REGISTRATION_TIMEOUT  12000  /* msec : allowed time to finished dhd registration */
 
+#if 0
 #if defined(CUSTOMER_HW)
 struct wifi_platform_data {
 	int (*set_power)(bool val);
@@ -40,6 +41,7 @@ struct wifi_platform_data {
 	int (*get_mac_addr)(unsigned char *buf);
 	void *(*get_country_code)(char *ccode);
 };
+#endif
 #endif
 
 typedef struct wifi_adapter_info {
