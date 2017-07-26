@@ -1,3 +1,0 @@
-console=tty0 console=ttyS0,115200n8 coherent_pool=8M no_console_suspend
-kernel_filename=orangepi/uImage
-initrd_filename=initrd.img

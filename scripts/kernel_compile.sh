@@ -105,7 +105,7 @@ if [ $BUILD_KERNEL = "1" ]; then
 	## Create uEnv.txt
 	echo -e "\e[1;31m Create uEnv.txt \e[0m"
 cat <<EOF > "$BUILD/uEnv.txt"
-console=tty0 console=ttyS0,115200n8 no_console_suspend
+console=tty0 console=ttyS0,115200n8 coherent_pool=8M no_console_suspend
 kernel_filename=orangepi/uImage
 initrd_filename=initrd.img
 EOF
