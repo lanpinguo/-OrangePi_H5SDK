@@ -1,37 +1,37 @@
 Archive member included because of file (symbol)
 
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
                               arch/arm/cpu/armv7/sun50iw2p1/built-in.o (__aeabi_uidiv)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
                               arch/arm/cpu/armv7/sun50iw2p1/built-in.o (__aeabi_idiv)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
                               lib/built-in.o (__aeabi_llsr)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
                               drivers/built-in.o (__aeabi_lasr)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
                               drivers/mmc/built-in.o (__aeabi_llsl)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_i2d)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_ddiv)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_d2f)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_fsub)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_fmul)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
                               board/sunxi/cartoon/built-in.o (__aeabi_f2iz)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
                               lib/openssl/built-in.o (__aeabi_uldivmod)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
-                              /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
-                              /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
-                              /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__divdi3)
-/work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
-                              /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__udivdi3)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+                              /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+                              /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+                              /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__divdi3)
+/work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                              /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__udivdi3)
 
 Discarded input sections
 
@@ -1134,9 +1134,9 @@ Discarded input sections
                 0x00000000       0x90 drivers/input/built-in.o
  .debug_info    0x00000000     0x17fc drivers/input/built-in.o
  .debug_abbrev  0x00000000      0x59d drivers/input/built-in.o
- .debug_line    0x00000000      0x4d8 drivers/input/built-in.o
+ .debug_line    0x00000000      0x4e0 drivers/input/built-in.o
  .debug_frame   0x00000000      0x190 drivers/input/built-in.o
- .debug_str     0x00000000      0xace drivers/input/built-in.o
+ .debug_str     0x00000000      0xad6 drivers/input/built-in.o
  .debug_loc     0x00000000      0xc52 drivers/input/built-in.o
  .debug_ranges  0x00000000      0x1a8 drivers/input/built-in.o
  .text          0x00000000        0x0 drivers/mmc/built-in.o
@@ -1249,9 +1249,9 @@ Discarded input sections
                 0x00000000       0x28 drivers/spi/built-in.o
  .debug_info    0x00000000      0x4d4 drivers/spi/built-in.o
  .debug_abbrev  0x00000000      0x14c drivers/spi/built-in.o
- .debug_line    0x00000000       0xfc drivers/spi/built-in.o
+ .debug_line    0x00000000      0x100 drivers/spi/built-in.o
  .debug_frame   0x00000000       0x48 drivers/spi/built-in.o
- .debug_str     0x00000000      0x340 drivers/spi/built-in.o
+ .debug_str     0x00000000      0x344 drivers/spi/built-in.o
  .debug_loc     0x00000000      0x125 drivers/spi/built-in.o
  .debug_ranges  0x00000000       0x18 drivers/spi/built-in.o
  .text          0x00000000        0x0 drivers/sunxi_flash/built-in.o
@@ -1817,97 +1817,97 @@ Discarded input sections
                 0x00000000        0x4 arch/arm/lib/eabi_compat.o
  .text.__aeabi_unwind_cpp_pr1
                 0x00000000        0x4 arch/arm/lib/eabi_compat.o
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
- .text          0x00000000      0x370 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .text          0x00000000      0x370 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
- .text          0x00000000      0x424 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000      0x424 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
- .text          0x00000000       0xa0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivdf3.o)
+ .text          0x00000000       0xa0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
- .text          0x00000000      0x21c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_truncdfsf2.o)
+ .text          0x00000000      0x21c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
- .text          0x00000000      0x2a0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_addsubsf3.o)
+ .text          0x00000000      0x2a0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
- .text          0x00000000       0x4c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_muldivsf3.o)
+ .text          0x00000000       0x4c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
- .text          0x00000000       0x2c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_arm_fixsfsi.o)
+ .text          0x00000000       0x2c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000000       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
- .text          0x00000000       0x5c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .ARM.extab     0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .ARM.exidx     0x00000000       0x10 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+                0x00000000       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .text          0x00000000       0x5c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .ARM.extab     0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .ARM.exidx     0x00000000       0x10 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
  .ARM.attributes
-                0x00000000       0x35 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .debug_frame   0x00000000       0x54 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
- .text          0x00000000      0x360 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .ARM.extab     0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .ARM.exidx     0x00000000        0x8 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+                0x00000000       0x35 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .debug_frame   0x00000000       0x54 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .text          0x00000000      0x360 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x00000000       0x35 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .debug_frame   0x00000000       0x38 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
- .text          0x00000000      0x31c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
- .data          0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
- .bss           0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
- .ARM.extab     0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
- .ARM.exidx     0x00000000        0x8 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                0x00000000       0x35 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .debug_frame   0x00000000       0x38 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .text          0x00000000      0x31c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .data          0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x8 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x00000000       0x35 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
- .debug_frame   0x00000000       0x38 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                0x00000000       0x35 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000000       0x38 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
  .text          0x00000000        0x0 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
  .text.del_block_count_list
                 0x00000000       0x1c nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
@@ -8351,24 +8351,24 @@ Linker script and memory map
  .text.raise    0x4a0655d8       0x1c arch/arm/lib/eabi_compat.o
                 0x4a0655d8                raise
  *fill*         0x4a0655f4        0x4 00
- .text          0x4a0655f8      0x278 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .text          0x4a0655f8      0x278 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
                 0x4a0655f8                __udivsi3
                 0x4a0655f8                __aeabi_uidiv
                 0x4a065854                __aeabi_uidivmod
- .text          0x4a065870      0x2b0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+ .text          0x4a065870      0x2b0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
                 0x4a065870                __divsi3
                 0x4a065870                __aeabi_idiv
                 0x4a065b04                __aeabi_idivmod
- .text          0x4a065b20       0x18 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+ .text          0x4a065b20       0x18 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
                 0x4a065b20                __aeabi_llsr
                 0x4a065b20                __lshrdi3
- .text          0x4a065b38       0x1c /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+ .text          0x4a065b38       0x1c /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
                 0x4a065b38                __aeabi_lasr
                 0x4a065b38                __ashrdi3
- .text          0x4a065b54       0x18 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .text          0x4a065b54       0x18 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
                 0x4a065b54                __aeabi_llsl
                 0x4a065b54                __ashldi3
- .text          0x4a065b6c        0xc /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .text          0x4a065b6c        0xc /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
                 0x4a065b6c                __aeabi_ldiv0
                 0x4a065b6c                __aeabi_idiv0
  .text.add_free_list
@@ -17365,42 +17365,42 @@ LOAD test/dm/built-in.o
 LOAD usb_sunxi/built-in.o
 END GROUP
 LOAD arch/arm/lib/eabi_compat.o
-LOAD /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a
+LOAD /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a
 LOAD nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 OUTPUT(u-boot elf32-littlearm)
 
-.debug_info     0x00000000   0x174128
+.debug_info     0x00000000   0x174148
  .debug_info    0x00000000      0x6d0 arch/arm/cpu/armv7/spare_head.o
  .debug_info    0x000006d0      0x3a5 arch/arm/cpu/armv7/uboot_hash.o
- .debug_info    0x00000a75       0x66 arch/arm/cpu/armv7/start.o
- .debug_info    0x00000adb     0x13bf arch/arm/cpu/armv7/built-in.o
- .debug_info    0x00001e9a     0xbf57 arch/arm/cpu/armv7/sun50iw2p1/built-in.o
- .debug_info    0x0000ddf1     0x3ece arch/arm/lib/built-in.o
- .debug_info    0x00011cbf     0x406f board/sunxi/cartoon/built-in.o
- .debug_info    0x00015d2e    0x11408 board/sunxi/common/built-in.o
- .debug_info    0x00027136      0xead board/sunxi/sun50iw2p1/built-in.o
- .debug_info    0x00027fe3    0x2ee06 common/built-in.o
- .debug_info    0x00056de9     0x1efe disk/built-in.o
- .debug_info    0x00058ce7    0x53d93 drivers/built-in.o
- .debug_info    0x000aca7a     0x6cb6 drivers/clk/built-in.o
- .debug_info    0x000b3730      0xc6f drivers/dma/built-in.o
- .debug_info    0x000b439f      0x655 drivers/i2c/built-in.o
- .debug_info    0x000b49f4    0x100f4 drivers/mmc/built-in.o
- .debug_info    0x000c4ae8     0x4f01 drivers/power/built-in.o
- .debug_info    0x000c99e9     0x15b2 drivers/pwm/built-in.o
- .debug_info    0x000caf9b     0x2543 drivers/serial/built-in.o
- .debug_info    0x000cd4de     0x12a8 drivers/smc/built-in.o
- .debug_info    0x000ce786     0x4273 drivers/sunxi_flash/built-in.o
- .debug_info    0x000d29f9     0x379d fs/built-in.o
- .debug_info    0x000d6196     0xa5b6 lib/built-in.o
- .debug_info    0x000e074c     0x4647 lib/libfdt/built-in.o
- .debug_info    0x000e4d93    0x1e3eb lib/openssl/built-in.o
- .debug_info    0x0010317e      0xcbc memtest/built-in.o
- .debug_info    0x00103e3a     0x3e34 nand_sunxi/built-in.o
- .debug_info    0x00107c6e     0xe5e8 sprite/built-in.o
- .debug_info    0x00116256     0xaa9b usb_sunxi/built-in.o
- .debug_info    0x00120cf1      0x3dc arch/arm/lib/eabi_compat.o
- .debug_info    0x001210cd    0x5305b nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
+ .debug_info    0x00000a75       0x6a arch/arm/cpu/armv7/start.o
+ .debug_info    0x00000adf     0x13c3 arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x00001ea2     0xbf57 arch/arm/cpu/armv7/sun50iw2p1/built-in.o
+ .debug_info    0x0000ddf9     0x3ee2 arch/arm/lib/built-in.o
+ .debug_info    0x00011cdb     0x406f board/sunxi/cartoon/built-in.o
+ .debug_info    0x00015d4a    0x11408 board/sunxi/common/built-in.o
+ .debug_info    0x00027152      0xead board/sunxi/sun50iw2p1/built-in.o
+ .debug_info    0x00027fff    0x2ee06 common/built-in.o
+ .debug_info    0x00056e05     0x1efe disk/built-in.o
+ .debug_info    0x00058d03    0x53d93 drivers/built-in.o
+ .debug_info    0x000aca96     0x6cb6 drivers/clk/built-in.o
+ .debug_info    0x000b374c      0xc6f drivers/dma/built-in.o
+ .debug_info    0x000b43bb      0x655 drivers/i2c/built-in.o
+ .debug_info    0x000b4a10    0x100f4 drivers/mmc/built-in.o
+ .debug_info    0x000c4b04     0x4f01 drivers/power/built-in.o
+ .debug_info    0x000c9a05     0x15b2 drivers/pwm/built-in.o
+ .debug_info    0x000cafb7     0x2543 drivers/serial/built-in.o
+ .debug_info    0x000cd4fa     0x12ac drivers/smc/built-in.o
+ .debug_info    0x000ce7a6     0x4273 drivers/sunxi_flash/built-in.o
+ .debug_info    0x000d2a19     0x379d fs/built-in.o
+ .debug_info    0x000d61b6     0xa5b6 lib/built-in.o
+ .debug_info    0x000e076c     0x4647 lib/libfdt/built-in.o
+ .debug_info    0x000e4db3    0x1e3eb lib/openssl/built-in.o
+ .debug_info    0x0010319e      0xcbc memtest/built-in.o
+ .debug_info    0x00103e5a     0x3e34 nand_sunxi/built-in.o
+ .debug_info    0x00107c8e     0xe5e8 sprite/built-in.o
+ .debug_info    0x00116276     0xaa9b usb_sunxi/built-in.o
+ .debug_info    0x00120d11      0x3dc arch/arm/lib/eabi_compat.o
+ .debug_info    0x001210ed    0x5305b nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
 .debug_abbrev   0x00000000    0x33911
  .debug_abbrev  0x00000000       0xf9 arch/arm/cpu/armv7/spare_head.o
@@ -17435,99 +17435,99 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_abbrev  0x0002bad8      0x118 arch/arm/lib/eabi_compat.o
  .debug_abbrev  0x0002bbf0     0x7d21 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
-.debug_line     0x00000000    0x464b8
- .debug_line    0x00000000       0xf2 arch/arm/cpu/armv7/spare_head.o
- .debug_line    0x000000f2       0xcf arch/arm/cpu/armv7/uboot_hash.o
- .debug_line    0x000001c1       0x85 arch/arm/cpu/armv7/start.o
- .debug_line    0x00000246      0x4d1 arch/arm/cpu/armv7/built-in.o
- .debug_line    0x00000717     0x2814 arch/arm/cpu/armv7/sun50iw2p1/built-in.o
- .debug_line    0x00002f2b      0xccd arch/arm/lib/built-in.o
- .debug_line    0x00003bf8      0xe8b board/sunxi/cartoon/built-in.o
- .debug_line    0x00004a83     0x3601 board/sunxi/common/built-in.o
- .debug_line    0x00008084      0x232 board/sunxi/sun50iw2p1/built-in.o
- .debug_line    0x000082b6     0x8df9 common/built-in.o
- .debug_line    0x000110af      0x626 disk/built-in.o
- .debug_line    0x000116d5     0xd408 drivers/built-in.o
- .debug_line    0x0001eadd     0x1246 drivers/clk/built-in.o
- .debug_line    0x0001fd23      0x31e drivers/dma/built-in.o
- .debug_line    0x00020041      0x147 drivers/i2c/built-in.o
- .debug_line    0x00020188     0x30f9 drivers/mmc/built-in.o
- .debug_line    0x00023281     0x1647 drivers/power/built-in.o
- .debug_line    0x000248c8      0x40d drivers/pwm/built-in.o
- .debug_line    0x00024cd5      0x817 drivers/serial/built-in.o
- .debug_line    0x000254ec      0x49e drivers/smc/built-in.o
- .debug_line    0x0002598a      0xada drivers/sunxi_flash/built-in.o
- .debug_line    0x00026464      0xc92 fs/built-in.o
- .debug_line    0x000270f6     0x339f lib/built-in.o
- .debug_line    0x0002a495     0x1327 lib/libfdt/built-in.o
- .debug_line    0x0002b7bc     0x5146 lib/openssl/built-in.o
- .debug_line    0x00030902      0x4d7 memtest/built-in.o
- .debug_line    0x00030dd9     0x10fa nand_sunxi/built-in.o
- .debug_line    0x00031ed3     0x2f5e sprite/built-in.o
- .debug_line    0x00034e31     0x2159 usb_sunxi/built-in.o
- .debug_line    0x00036f8a       0xfb arch/arm/lib/eabi_compat.o
- .debug_line    0x00037085     0xf433 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
+.debug_line     0x00000000    0x46a58
+ .debug_line    0x00000000       0xf6 arch/arm/cpu/armv7/spare_head.o
+ .debug_line    0x000000f6       0xd3 arch/arm/cpu/armv7/uboot_hash.o
+ .debug_line    0x000001c9       0x85 arch/arm/cpu/armv7/start.o
+ .debug_line    0x0000024e      0x4dd arch/arm/cpu/armv7/built-in.o
+ .debug_line    0x0000072b     0x285c arch/arm/cpu/armv7/sun50iw2p1/built-in.o
+ .debug_line    0x00002f87      0xce9 arch/arm/lib/built-in.o
+ .debug_line    0x00003c70      0xea7 board/sunxi/cartoon/built-in.o
+ .debug_line    0x00004b17     0x3655 board/sunxi/common/built-in.o
+ .debug_line    0x0000816c      0x236 board/sunxi/sun50iw2p1/built-in.o
+ .debug_line    0x000083a2     0x8ef1 common/built-in.o
+ .debug_line    0x00011293      0x62e disk/built-in.o
+ .debug_line    0x000118c1     0xd4f4 drivers/built-in.o
+ .debug_line    0x0001edb5     0x125a drivers/clk/built-in.o
+ .debug_line    0x0002000f      0x326 drivers/dma/built-in.o
+ .debug_line    0x00020335      0x14b drivers/i2c/built-in.o
+ .debug_line    0x00020480     0x311d drivers/mmc/built-in.o
+ .debug_line    0x0002359d     0x165b drivers/power/built-in.o
+ .debug_line    0x00024bf8      0x411 drivers/pwm/built-in.o
+ .debug_line    0x00025009      0x823 drivers/serial/built-in.o
+ .debug_line    0x0002582c      0x4a2 drivers/smc/built-in.o
+ .debug_line    0x00025cce      0xae6 drivers/sunxi_flash/built-in.o
+ .debug_line    0x000267b4      0xc9e fs/built-in.o
+ .debug_line    0x00027452     0x33f3 lib/built-in.o
+ .debug_line    0x0002a845     0x133f lib/libfdt/built-in.o
+ .debug_line    0x0002bb84     0x5282 lib/openssl/built-in.o
+ .debug_line    0x00030e06      0x4db memtest/built-in.o
+ .debug_line    0x000312e1     0x1112 nand_sunxi/built-in.o
+ .debug_line    0x000323f3     0x2fb2 sprite/built-in.o
+ .debug_line    0x000353a5     0x2181 usb_sunxi/built-in.o
+ .debug_line    0x00037526       0xff arch/arm/lib/eabi_compat.o
+ .debug_line    0x00037625     0xf433 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
-.debug_str      0x00000000    0x2dbd0
- .debug_str     0x00000000      0x404 arch/arm/cpu/armv7/spare_head.o
-                                0x506 (size before relaxing)
- .debug_str     0x00000404       0x20 arch/arm/cpu/armv7/uboot_hash.o
-                                0x2e0 (size before relaxing)
- .debug_str     0x00000424      0x34a arch/arm/cpu/armv7/built-in.o
-                                0xbaa (size before relaxing)
- .debug_str     0x0000076e     0x2ca4 arch/arm/cpu/armv7/sun50iw2p1/built-in.o
-                               0x5b3d (size before relaxing)
- .debug_str     0x00003412     0x10b2 arch/arm/lib/built-in.o
-                               0x2e29 (size before relaxing)
- .debug_str     0x000044c4      0xbd1 board/sunxi/cartoon/built-in.o
-                               0x2593 (size before relaxing)
- .debug_str     0x00005095     0x31ee board/sunxi/common/built-in.o
-                               0xb13b (size before relaxing)
- .debug_str     0x00008283      0x12e board/sunxi/sun50iw2p1/built-in.o
-                                0xac2 (size before relaxing)
- .debug_str     0x000083b1     0x5569 common/built-in.o
-                              0x1c05d (size before relaxing)
- .debug_str     0x0000d91a      0x2a5 disk/built-in.o
-                                0xee5 (size before relaxing)
- .debug_str     0x0000dbbf     0xacf4 drivers/built-in.o
-                              0x37ad1 (size before relaxing)
- .debug_str     0x000188b3     0x1615 drivers/clk/built-in.o
-                               0x2f6a (size before relaxing)
- .debug_str     0x00019ec8      0x341 drivers/dma/built-in.o
-                                0x6c2 (size before relaxing)
- .debug_str     0x0001a209       0x97 drivers/i2c/built-in.o
-                                0x37b (size before relaxing)
- .debug_str     0x0001a2a0     0x18fa drivers/mmc/built-in.o
-                               0x6e2a (size before relaxing)
- .debug_str     0x0001bb9a      0xdbe drivers/power/built-in.o
-                               0x2623 (size before relaxing)
- .debug_str     0x0001c958      0x37e drivers/pwm/built-in.o
-                                0x888 (size before relaxing)
- .debug_str     0x0001ccd6      0x52c drivers/serial/built-in.o
-                               0x1368 (size before relaxing)
- .debug_str     0x0001d202      0x36b drivers/smc/built-in.o
-                                0x997 (size before relaxing)
- .debug_str     0x0001d56d      0xaa2 drivers/sunxi_flash/built-in.o
-                               0x26c6 (size before relaxing)
- .debug_str     0x0001e00f      0x6fa fs/built-in.o
-                               0x17e3 (size before relaxing)
- .debug_str     0x0001e709     0x1290 lib/built-in.o
-                               0x5b24 (size before relaxing)
- .debug_str     0x0001f999      0x91c lib/libfdt/built-in.o
-                               0x1749 (size before relaxing)
- .debug_str     0x000202b5     0x1c4d lib/openssl/built-in.o
-                               0xf3b7 (size before relaxing)
- .debug_str     0x00021f02      0x1a3 memtest/built-in.o
-                                0x479 (size before relaxing)
- .debug_str     0x000220a5      0xd19 nand_sunxi/built-in.o
-                               0x225c (size before relaxing)
- .debug_str     0x00022dbe     0x1bf9 sprite/built-in.o
-                               0x8493 (size before relaxing)
- .debug_str     0x000249b7     0x1c16 usb_sunxi/built-in.o
-                               0x5e71 (size before relaxing)
- .debug_str     0x000265cd       0x56 arch/arm/lib/eabi_compat.o
-                                0x305 (size before relaxing)
- .debug_str     0x00026623     0x75ad nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
+.debug_str      0x00000000    0x2dbd4
+ .debug_str     0x00000000      0x408 arch/arm/cpu/armv7/spare_head.o
+                                0x50a (size before relaxing)
+ .debug_str     0x00000408       0x20 arch/arm/cpu/armv7/uboot_hash.o
+                                0x2e4 (size before relaxing)
+ .debug_str     0x00000428      0x34a arch/arm/cpu/armv7/built-in.o
+                                0xbb6 (size before relaxing)
+ .debug_str     0x00000772     0x2ca4 arch/arm/cpu/armv7/sun50iw2p1/built-in.o
+                               0x5b71 (size before relaxing)
+ .debug_str     0x00003416     0x10b2 arch/arm/lib/built-in.o
+                               0x2e45 (size before relaxing)
+ .debug_str     0x000044c8      0xbd1 board/sunxi/cartoon/built-in.o
+                               0x25ab (size before relaxing)
+ .debug_str     0x00005099     0x31ee board/sunxi/common/built-in.o
+                               0xb18b (size before relaxing)
+ .debug_str     0x00008287      0x12e board/sunxi/sun50iw2p1/built-in.o
+                                0xac6 (size before relaxing)
+ .debug_str     0x000083b5     0x5569 common/built-in.o
+                              0x1c145 (size before relaxing)
+ .debug_str     0x0000d91e      0x2a5 disk/built-in.o
+                                0xeed (size before relaxing)
+ .debug_str     0x0000dbc3     0xacf4 drivers/built-in.o
+                              0x37bc1 (size before relaxing)
+ .debug_str     0x000188b7     0x1615 drivers/clk/built-in.o
+                               0x2f7e (size before relaxing)
+ .debug_str     0x00019ecc      0x341 drivers/dma/built-in.o
+                                0x6c6 (size before relaxing)
+ .debug_str     0x0001a20d       0x97 drivers/i2c/built-in.o
+                                0x37f (size before relaxing)
+ .debug_str     0x0001a2a4     0x18fa drivers/mmc/built-in.o
+                               0x6e4a (size before relaxing)
+ .debug_str     0x0001bb9e      0xdbe drivers/power/built-in.o
+                               0x2637 (size before relaxing)
+ .debug_str     0x0001c95c      0x37e drivers/pwm/built-in.o
+                                0x88c (size before relaxing)
+ .debug_str     0x0001ccda      0x52c drivers/serial/built-in.o
+                               0x1374 (size before relaxing)
+ .debug_str     0x0001d206      0x36b drivers/smc/built-in.o
+                                0x99b (size before relaxing)
+ .debug_str     0x0001d571      0xaa2 drivers/sunxi_flash/built-in.o
+                               0x26d2 (size before relaxing)
+ .debug_str     0x0001e013      0x6fa fs/built-in.o
+                               0x17ef (size before relaxing)
+ .debug_str     0x0001e70d     0x1290 lib/built-in.o
+                               0x5b84 (size before relaxing)
+ .debug_str     0x0001f99d      0x91c lib/libfdt/built-in.o
+                               0x1765 (size before relaxing)
+ .debug_str     0x000202b9     0x1c4d lib/openssl/built-in.o
+                               0xf45b (size before relaxing)
+ .debug_str     0x00021f06      0x1a3 memtest/built-in.o
+                                0x47d (size before relaxing)
+ .debug_str     0x000220a9      0xd19 nand_sunxi/built-in.o
+                               0x2270 (size before relaxing)
+ .debug_str     0x00022dc2     0x1bf9 sprite/built-in.o
+                               0x84db (size before relaxing)
+ .debug_str     0x000249bb     0x1c16 usb_sunxi/built-in.o
+                               0x5e99 (size before relaxing)
+ .debug_str     0x000265d1       0x56 arch/arm/lib/eabi_compat.o
+                                0x309 (size before relaxing)
+ .debug_str     0x00026627     0x75ad nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
                               0x38f6d (size before relaxing)
 
 .comment        0x00000000       0x8e
@@ -17625,17 +17625,17 @@ OUTPUT(u-boot elf32-littlearm)
  .note.GNU-stack
                 0x00000000        0x0 arch/arm/lib/eabi_compat.o
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
  .note.GNU-stack
-                0x00000000        0x0 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+                0x00000000        0x0 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
  .note.GNU-stack
                 0x00000000        0x0 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
@@ -17702,17 +17702,17 @@ OUTPUT(u-boot elf32-littlearm)
  .ARM.attributes
                 0x00000545       0x2f arch/arm/lib/eabi_compat.o
  .ARM.attributes
-                0x00000574       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+                0x00000574       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x00000597       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+                0x00000597       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
  .ARM.attributes
-                0x000005ba       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
+                0x000005ba       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_lshrdi3.o)
  .ARM.attributes
-                0x000005dd       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
+                0x000005dd       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashrdi3.o)
  .ARM.attributes
-                0x00000600       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+                0x00000600       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
  .ARM.attributes
-                0x00000623       0x23 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+                0x00000623       0x23 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
  .ARM.attributes
                 0x00000646       0x2f nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
@@ -17804,8 +17804,8 @@ OUTPUT(u-boot elf32-littlearm)
  .debug_frame   0x000122e8      0xf04 sprite/built-in.o
  .debug_frame   0x000131ec      0xa00 usb_sunxi/built-in.o
  .debug_frame   0x00013bec       0x48 arch/arm/lib/eabi_compat.o
- .debug_frame   0x00013c34       0x20 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
- .debug_frame   0x00013c54       0x20 /work/orangePi/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
+ .debug_frame   0x00013c34       0x20 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00013c54       0x20 /work/orangePi/SDK/OrangePi_H5SDK/toolchain/gcc-linaro-aarch/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divsi3.o)
  .debug_frame   0x00013c74     0x50b0 nand_sunxi/sun50iw2p1/libnand-sun50iw2p1
 
 .debug_loc      0x00000000    0x93903

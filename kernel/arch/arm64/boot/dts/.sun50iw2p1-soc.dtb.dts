@@ -26,7 +26,7 @@
 /memreserve/ 0x48104000 0x00001000;
 /memreserve/ 0x48105000 0x00001000;
 
-# 1 "/work/orangePi/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 1 "/work/orangePi/SDK/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/arm-gic.h" 1
 
 
 
@@ -34,10 +34,10 @@
 
 
 
-# 1 "/work/orangePi/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/irq.h" 1
-# 9 "/work/orangePi/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 1 "/work/orangePi/SDK/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/irq.h" 1
+# 9 "/work/orangePi/SDK/OrangePi_H5SDK/kernel/include/dt-bindings/interrupt-controller/arm-gic.h" 2
 # 17 "arch/arm64/boot/dts/sun50iw2p1.dtsi" 2
-# 1 "/work/orangePi/OrangePi_H5SDK/kernel/include/dt-bindings/gpio/gpio.h" 1
+# 1 "/work/orangePi/SDK/OrangePi_H5SDK/kernel/include/dt-bindings/gpio/gpio.h" 1
 # 18 "arch/arm64/boot/dts/sun50iw2p1.dtsi" 2
 # 1 "arch/arm64/boot/dts/sun50iw2p1-clk.dtsi" 1
 /{
@@ -1895,7 +1895,7 @@ clocks {
    dachpf_cfg = <0x0>;
    pa_sleep_time = <0x15e>;
    dac_digital_vol = <0xa0a0>;
-   status = "okay";
+   status = "disable";
   };
 
   cpudai:cpudai0-controller@0x01c22c00 {
@@ -1971,7 +1971,7 @@ clocks {
    compatible = "allwinner,sunxi-codec-machine";
                         sunxi,cpudai-controller = <&cpudai>;
    sunxi,audio-codec = <&codec>;
-   status = "okay";
+   status = "disable";
   };
 
   snddaudio0:sound@1{
@@ -2012,7 +2012,14 @@ clocks {
    pinctrl-1 = <&spi0_pins_c>;
    spi0_cs_number = <1>;
    spi0_cs_bitmap = <1>;
-   status = "disabled";
+   status = "okay";
+
+   spidev@0x00 {
+    compatible = "spidev";
+    spi-max-frequency = <20000000>;
+    reg = <0>;
+   };
+
   };
 
   spi1: spi@01c69000 {
@@ -2029,7 +2036,14 @@ clocks {
    pinctrl-1 = <&spi1_pins_c>;
    spi1_cs_number = <1>;
    spi1_cs_bitmap = <1>;
-   status = "disabled";
+   status = "okay";
+
+   spidev@0x00 {
+    compatible = "spidev";
+    spi-max-frequency = <20000000>;
+    reg = <0>;
+   };
+
   };
 
   sdc2: sdmmc@01C11000 {
@@ -2049,7 +2063,7 @@ clocks {
 
 
    max-frequency = <50000000>;
-# 902 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
+# 916 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
    sdc_tm4_sm0_freq0 = <0>;
    sdc_tm4_sm0_freq1 = <0>;
    sdc_tm4_sm1_freq0 = <0x00000000>;
@@ -2060,7 +2074,7 @@ clocks {
    sdc_tm4_sm3_freq1 = <0x00000005>;
    sdc_tm4_sm4_freq0 = <0x00050000>;
    sdc_tm4_sm4_freq1 = <0x00000004>;
-# 921 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
+# 935 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
    status = "okay";
          };
 
@@ -2080,7 +2094,7 @@ clocks {
 
 
    cd-gpios = <&pio 5 6 0 1 2 0>;
-# 962 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
+# 976 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
    status = "okay";
   };
 
@@ -2096,7 +2110,7 @@ clocks {
    pinctrl-1 = <&sdc1_pins_b>;
    max-frequency = <50000000>;
    bus-width = <4>;
-# 996 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
+# 1010 "arch/arm64/boot/dts/sun50iw2p1.dtsi"
    sunxi-dly-52M-ddr4 = <1 0 0 0 2>;
 
    sunxi-dly-104M = <1 0 0 0 1>;

@@ -604,6 +604,8 @@ static int spidev_probe(struct spi_device *spi)
 				    spidev, "spidev%d.%d",
 				    spi->master->bus_num, spi->chip_select);
 		status = PTR_RET(dev);
+		printk(KERN_INFO "spidev%d.%d status: %d", spi->master->bus_num, spi->chip_select,status);
+
 	} else {
 		dev_dbg(&spi->dev, "no minor number available!\n");
 		status = -ENODEV;
@@ -646,7 +648,12 @@ static int spidev_remove(struct spi_device *spi)
 
 static const struct of_device_id spidev_dt_ids[] = {
 	{ .compatible = "rohm,dh2228fv" },
+	{ .compatible = "lineartechnology,ltc2488" },
+	{ .compatible = "ge,achc" },
+	{ .compatible = "semtech,sx1301" },
+	{ .compatible = "spidev" },
 	{},
+
 };
 
 MODULE_DEVICE_TABLE(of, spidev_dt_ids);
@@ -682,6 +689,7 @@ static int __init spidev_init(void)
 	if (status < 0)
 		return status;
 
+
 	spidev_class = class_create(THIS_MODULE, "spidev");
 	if (IS_ERR(spidev_class)) {
 		unregister_chrdev(SPIDEV_MAJOR, spidev_spi_driver.driver.name);
@@ -690,9 +698,12 @@ static int __init spidev_init(void)
 
 	status = spi_register_driver(&spidev_spi_driver);
 	if (status < 0) {
+		printk(KERN_ERR "spi_register_driverstatus : %d",status);
 		class_destroy(spidev_class);
 		unregister_chrdev(SPIDEV_MAJOR, spidev_spi_driver.driver.name);
 	}
+
+
 	return status;
 }
 module_init(spidev_init);

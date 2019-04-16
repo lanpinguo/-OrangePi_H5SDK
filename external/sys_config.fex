@@ -1275,11 +1275,11 @@ daudio1_used = 0
 ;         codec_used = 0x1,if register the sound card audiocodec.
 ;---------------------------------------------------------------------------------
 [sndcodec]
-sndcodec_used = 0x1
+sndcodec_used = 0x0
 ;------------------------------------------------------------------------------
 ;-------------------------------------------------------------------------------
 [codec]
-codec_used = 1
+codec_used = 0
 headphonevol =   0x3b
 spkervol =   0x1f
 maingain =   0x4

@@ -100,8 +100,9 @@ static int spi_match_device(struct device *dev, struct device_driver *drv)
 	if (acpi_driver_match_device(dev, drv))
 		return 1;
 
-	if (sdrv->id_table)
+	if (sdrv->id_table){
 		return !!spi_match_id(sdrv->id_table, spi);
+	}
 
 	return strcmp(spi->modalias, drv->name) == 0;
 }
@@ -1160,7 +1161,7 @@ int spi_register_master(struct spi_master *master)
 	status = device_add(&master->dev);
 	if (status < 0)
 		goto done;
-	dev_dbg(dev, "registered master %s%s\n", dev_name(&master->dev),
+	dev_info(dev, "registered master %s%s\n", dev_name(&master->dev),
 			dynamic ? " (dynamic)" : "");
 
 	/* If we're using a queued driver, start the queue */

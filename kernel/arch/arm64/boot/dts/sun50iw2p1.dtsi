@@ -730,7 +730,7 @@
 			dachpf_cfg =  <0x0>;
 			pa_sleep_time = <0x15e>;
 			dac_digital_vol = <0xa0a0>;
-			status = "okay";
+			status = "disable";
 		};
 
 		cpudai:cpudai0-controller@0x01c22c00 {
@@ -806,7 +806,7 @@
 			compatible = "allwinner,sunxi-codec-machine";
                         sunxi,cpudai-controller = <&cpudai>;
 			sunxi,audio-codec = <&codec>;
-			status = "okay";
+			status = "disable";
 		};
 
 		snddaudio0:sound@1{
@@ -847,7 +847,14 @@
 			pinctrl-1 = <&spi0_pins_c>;
 			spi0_cs_number = <1>;
 			spi0_cs_bitmap = <1>;
-			status = "disabled";
+			status = "okay";
+
+			spidev@0x00 {         // add spidev node
+				compatible = "spidev";
+				spi-max-frequency = <20000000>;
+				reg = <0>;
+			};
+
 		};
 
 		spi1: spi@01c69000 {
@@ -864,7 +871,14 @@
 			pinctrl-1 = <&spi1_pins_c>;
 			spi1_cs_number = <1>;
 			spi1_cs_bitmap = <1>;
-			status = "disabled";
+			status = "okay";
+
+			spidev@0x00 {         // add spidev node
+				compatible = "spidev";
+				spi-max-frequency = <20000000>;
+				reg = <0>;
+			};
+
 		};
 
 		sdc2: sdmmc@01C11000 {

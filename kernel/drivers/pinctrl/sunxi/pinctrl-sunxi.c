@@ -581,12 +581,13 @@ static int sunxi_pmx_set_mux_enable(struct pinctrl_dev *pctldev,
 		sunxi_pinctrl_desc_find_function_by_name(pctl,
 							 g->name,
 							 func->name);
+	printk(KERN_DEBUG"group %s, func %s",g->name,func->name);
 
 	if (!desc)
 		return -EINVAL;
 
 	sunxi_pmx_set(pctldev, g->pin, desc->muxval, true);
-
+	printk(KERN_DEBUG"pin %x, mux %x",g->pin,desc->muxval);
 	return 0;
 }
 

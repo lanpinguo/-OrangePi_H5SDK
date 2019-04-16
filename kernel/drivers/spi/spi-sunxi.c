@@ -1045,6 +1045,7 @@ static int sunxi_spi_xfer(struct spi_device *spi, struct spi_transfer *t)
 					--rx_len;
 				}
 			}
+			SPI_DBG("rx_bytes -> %d\n",t->len - rx_len);
 			if(poll_time <= 0) {
 				SPI_ERR("cpu receive data time out!\n");
 				return -1;
@@ -1099,6 +1100,7 @@ static int sunxi_spi_xfer(struct spi_device *spi, struct spi_transfer *t)
 					--rx_len;
 				}
 			}
+			SPI_DBG("full_rx_bytes -> %d\n",t->len - rx_len);
 			if(poll_time_rx <= 0) {
 				SPI_ERR("cpu receive data time out!\n");
 				return -1;
@@ -1648,6 +1650,8 @@ static int sunxi_spi_probe(struct platform_device *pdev)
 	char spi_para[16] = {0};
 	int ret = 0, err = 0, irq;
 
+
+
 	if (np == NULL) {
 		SPI_ERR("SPI failed to get of_node\n");
 		return -ENODEV;
@@ -1918,8 +1922,8 @@ static struct platform_driver sunxi_spi_driver = {
 
 static int __init sunxi_spi_init(void)
 {
-	return platform_driver_register(&sunxi_spi_driver);
 
+	return platform_driver_register(&sunxi_spi_driver);
 }
 
 static void __exit sunxi_spi_exit(void)

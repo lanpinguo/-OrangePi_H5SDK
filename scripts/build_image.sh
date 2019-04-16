@@ -21,7 +21,8 @@ OUTPUT="$ROOT/output"
 IMAGE="$OUTPUT/${PLATFORM}.img"
 ROOTFS="$OUTPUT/rootfs"
 #disk_size="1200"
-disk_size="8192"
+disk_size="3600"
+#disk_size="8192"
 if [ -z "$disk_size" ]; then
 	disk_size=100 #MiB
 fi
@@ -71,7 +72,7 @@ rm -f ${IMAGE}1
 
 # Create additional ext4 file system for rootfs
 dd if=/dev/zero bs=1M count=$((disk_size-boot_size-part_position/1024)) of=${IMAGE}2
-mkfs.ext4 -F -b 4096 -E stride=2,stripe-width=1024 -L rootfs ${IMAGE}2
+mkfs.ext4 -O ^64bit,^metadata_csum -F -b 4096 -E stride=2,stripe-width=1024 -L rootfs ${IMAGE}2
 
 if [ ! -d /media/tmp ]; then
 	mkdir -p /media/tmp
